@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Gradle_JUnit_DriverOpenBrowser {
 
     @Test
-    public void driveOpenValidateQuit() {
+    public void driverOpenValidateQuit() {
         String url = "https://mitra.bukalapak.com";
         WebDriver driver = new ChromeDriver();
 

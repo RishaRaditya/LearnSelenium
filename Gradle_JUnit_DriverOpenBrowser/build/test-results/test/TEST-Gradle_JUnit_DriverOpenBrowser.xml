@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Gradle_JUnit_DriverOpenBrowser" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-17T09:39:48" hostname="Mohammads-MacBook-Pro-2.local" time="6.298">
+<testsuite name="Gradle_JUnit_DriverOpenBrowser" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-17T10:05:45" hostname="Mohammads-MacBook-Pro-2.local" time="10.879">
   <properties/>
-  <testcase name="driveOpenValidateQuit" classname="Gradle_JUnit_DriverOpenBrowser" time="6.298"/>
+  <testcase name="driverOpenValidateQuit" classname="Gradle_JUnit_DriverOpenBrowser" time="10.879"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778) on port 19769
+  <system-err><![CDATA[Starting ChromeDriver 70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778) on port 24234
 Only local connections are allowed.
-Aug 17, 2020 4:39:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2020 5:05:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

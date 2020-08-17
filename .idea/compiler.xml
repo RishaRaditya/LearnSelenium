@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Maven_JUnit_DriverOpenBrowser" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Gradle_BeforeAfterClass_DriverOpenBrowser" target="1.8" />
       <module name="Gradle_JUnit_Driver-OpenBrowser-Quit" target="1.8" />
       <module name="JUnit-Driver-OpenBrowser-Quit" target="1.5" />
     </bytecodeTargetLevel>
