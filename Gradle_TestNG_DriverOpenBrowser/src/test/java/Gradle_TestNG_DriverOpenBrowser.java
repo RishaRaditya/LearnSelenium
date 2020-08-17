@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Gradle_TestNG_DriverOpenBrowser {
     private static WebDriver driver;
 
-    @BeforeClass
+    @BeforeMethod
     public static void openBrowser() {
         String url = "https://mitra.bukalapak.com";
         driver = new ChromeDriver();
@@ -20,13 +20,13 @@ public class Gradle_TestNG_DriverOpenBrowser {
         driver.navigate().to(url);
     }
 
-    @AfterClass
+    @AfterMethod
     public static void closeBrowser() {
         driver.quit();
     }
 
     @Test
     public void validateMitra() {
-        driver.findElement(By.xpath("//*[contains(text(), 'Menjadi Mitra')]"));
+        driver.findElement(By.xpath("//*[contains(text(), 'Menjadi Mitraxxx')]"));
     }
 }

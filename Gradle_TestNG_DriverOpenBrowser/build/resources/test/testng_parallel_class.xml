@@ -10,7 +10,7 @@
     <test name="SecondTest">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="Gradle_TestNG_DriverOpenBrowser"></class>
+            <class name="Gradle_TestNG_DriverOpenBrowser_Marketplace"></class>
         </classes>
     </test>
 </suite>
