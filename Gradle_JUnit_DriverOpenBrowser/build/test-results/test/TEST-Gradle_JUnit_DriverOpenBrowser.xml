@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Gradle_JUnit_DriverOpenBrowser" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-17T08:23:17" hostname="Mohammads-MacBook-Pro-2.local" time="6.463">
+<testsuite name="Gradle_JUnit_DriverOpenBrowser" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-17T09:39:48" hostname="Mohammads-MacBook-Pro-2.local" time="6.298">
   <properties/>
-  <testcase name="startSite" classname="Gradle_JUnit_DriverOpenBrowser" time="6.463"/>
-  <system-out><![CDATA[The title of https://www.facebook.com is: Facebook - Masuk atau Daftar
-]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778) on port 21685
+  <testcase name="driveOpenValidateQuit" classname="Gradle_JUnit_DriverOpenBrowser" time="6.298"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778) on port 19769
 Only local connections are allowed.
-Aug 17, 2020 3:23:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2020 4:39:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

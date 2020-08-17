@@ -3,20 +3,21 @@
  */
 
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Maven_JUnit_DriverOpenBrowser {
 
     @Test
-    public void startSite() {
-        String url = "https://www.facebook.com";
+    public void driverOpenValidateQuit() {
+        String url = "https://mitra.bukalapak.com";
         WebDriver driver = new ChromeDriver();
-        driver.get(url);
 
-        String title = driver.getTitle();
-        System.out.println("The title of " + url + " is: " + title);
+        driver.navigate().to(url);
+        driver.findElement(By.xpath("//*[contains(text(), 'Menjadi Mitra')]"));
 
+        driver.close();
         driver.quit();
     }
 }
