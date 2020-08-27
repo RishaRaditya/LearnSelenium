@@ -1,4 +1,4 @@
-/**
+package page_object; /**
  * Created by risha on 23/08/20
  */
 

@@ -14,8 +14,6 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     testImplementation 'io.cucumber:cucumber-java8:6.5.0'
     testImplementation 'io.cucumber:cucumber-java:6.5.0'
-//    testImplementation 'io.cucumber:cucumber-java8:4.7.1'
-//    testImplementation 'io.cucumber:cucumber-junit:4.7.1'
 }
 
 test {

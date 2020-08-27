@@ -6,13 +6,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java8.En;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+import page_object.HomePageMitra;
 
 public class TestMitra_StepDefinition implements En {
     public WebDriver driver;
 
     public TestMitra_StepDefinition() {
-
         Given("mitra initiate automation - Lambda Method", () -> {
             driver = new ChromeDriver();
         });
@@ -23,7 +22,7 @@ public class TestMitra_StepDefinition implements En {
         });
 
         Then("mitra validate home page Mitra", () -> {
-//            new HomePageMitra(driver).validateHomePageMitra.isDisplayed();
+            new HomePageMitra(driver).validateHomePageMitra.isDisplayed();
         });
 
         And("mitra quit browser", () -> {
